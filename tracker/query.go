@@ -39,7 +39,7 @@ import (
 
 type announceParam string
 
-//noinspection GoUnusedConst
+// noinspection GoUnusedConst
 const (
 	paramInfoHash      announceParam = "info_hash"
 	paramPeerID        announceParam = "peer_id"

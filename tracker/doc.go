@@ -2,26 +2,36 @@
 //
 // Tracker endpoints:
 //
-//	 - /:passkey/announce
+//   - /:passkey/announce
 //   - /:passkey/scrape
 //
 // API routes:
 //
-//  - General
-//    - POST /ping
-//    - GET /tracker/stats
-//    - PATCH /config
+//   - General
 //
-//	- Torrents
-//    - DELETE /torrent/:info_hash
-//    - PATCH /torrent/:info_hash
-//    - POST /torrent
-//    - POST /whitelist
-//    - GET /whitelist
-//    - DELETE/whitelist/:prefix
+//   - POST /ping
 //
-//	- Users
-//    - POST /user
-//    - DELETE /user/pk/:passkey
+//   - GET /tracker/stats
 //
+//   - PATCH /config
+//
+//   - Torrents
+//
+//   - DELETE /torrent/:info_hash
+//
+//   - PATCH /torrent/:info_hash
+//
+//   - POST /torrent
+//
+//   - POST /whitelist
+//
+//   - GET /whitelist
+//
+//   - DELETE/whitelist/:prefix
+//
+//   - Users
+//
+//   - POST /user
+//
+//   - DELETE /user/pk/:passkey
 package tracker

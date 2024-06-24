@@ -2,7 +2,7 @@ package tracker
 
 import "testing"
 
-//noinspection GoUnusedGlobalVariable
+// noinspection GoUnusedGlobalVariable
 var result *query
 
 func benchmarkQuery(b *testing.B) {
