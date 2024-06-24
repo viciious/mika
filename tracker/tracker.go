@@ -241,8 +241,11 @@ func Migrate() error {
 }
 
 func ClientWhitelisted(peerID store.PeerID) bool {
+	var found = true
 	whitelistMu.RLock()
-	_, found := whitelist[string(peerID[0:8])]
+	if len(whitelist) > 0 {
+		_, found = whitelist[string(peerID[0:8])]
+	}
 	whitelistMu.RUnlock()
 	return found
 }
