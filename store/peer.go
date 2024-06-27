@@ -3,9 +3,9 @@ package store
 import (
 	"database/sql/driver"
 	"fmt"
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/geo"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/geo"
+	"github.com/viciious/mika/util"
 	"github.com/pkg/errors"
 	"net"
 	"strconv"

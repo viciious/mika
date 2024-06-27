@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/geo"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/geo"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"time"

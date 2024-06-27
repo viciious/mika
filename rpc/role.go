@@ -2,9 +2,9 @@ package rpc
 
 import (
 	"context"
-	pb "github.com/leighmacdonald/mika/proto"
-	"github.com/leighmacdonald/mika/store"
-	"github.com/leighmacdonald/mika/tracker"
+	pb "github.com/viciious/mika/proto"
+	"github.com/viciious/mika/store"
+	"github.com/viciious/mika/tracker"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"

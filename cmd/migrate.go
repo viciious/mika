@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/leighmacdonald/mika/store"
-	"github.com/leighmacdonald/mika/tracker"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/store"
+	"github.com/viciious/mika/tracker"
+	"github.com/viciious/mika/util"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

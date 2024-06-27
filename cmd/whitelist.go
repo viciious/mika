@@ -3,9 +3,9 @@ package cmd
 import (
 	"context"
 	"github.com/jedib0t/go-pretty/v6/table"
-	pb "github.com/leighmacdonald/mika/proto"
-	"github.com/leighmacdonald/mika/rpc"
-	"github.com/leighmacdonald/mika/store"
+	pb "github.com/viciious/mika/proto"
+	"github.com/viciious/mika/rpc"
+	"github.com/viciious/mika/store"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/types/known/emptypb"

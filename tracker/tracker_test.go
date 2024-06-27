@@ -3,8 +3,8 @@ package tracker
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/store"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/store"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 	"net/http/httptest"

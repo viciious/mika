@@ -1,9 +1,9 @@
 package tracker
 
 import (
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/store"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/store"
+	"github.com/viciious/mika/util"
 )
 
 func Users() store.Users {

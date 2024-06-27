@@ -1,9 +1,9 @@
 package memory
 
 import (
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/store"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/store"
 	"github.com/pkg/errors"
 	"strings"
 	"sync"

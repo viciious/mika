@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"github.com/chihaya/bencode"
 	"github.com/gin-gonic/gin"
-	"github.com/leighmacdonald/mika/store"
+	"github.com/viciious/mika/store"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 )

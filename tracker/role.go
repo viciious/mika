@@ -1,7 +1,7 @@
 package tracker
 
 import (
-	"github.com/leighmacdonald/mika/store"
+	"github.com/viciious/mika/store"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

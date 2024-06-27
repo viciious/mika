@@ -2,9 +2,9 @@ package tracker
 
 import (
 	"fmt"
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/store"
-	_ "github.com/leighmacdonald/mika/store/mysql"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/store"
+	_ "github.com/viciious/mika/store/mysql"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

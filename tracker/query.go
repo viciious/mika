@@ -30,8 +30,8 @@ package tracker
 //
 
 import (
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/util"
 	"net/url"
 	"strconv"
 	"strings"

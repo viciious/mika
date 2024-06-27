@@ -3,8 +3,8 @@ package config
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/util"
 	"github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

@@ -1,4 +1,4 @@
-module github.com/leighmacdonald/mika
+module github.com/viciious/mika
 
 go 1.14
 

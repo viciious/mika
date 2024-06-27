@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/leighmacdonald/mika/store"
+	"github.com/viciious/mika/store"
 	"testing"
 )
 

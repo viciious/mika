@@ -7,7 +7,7 @@ import (
 	"encoding/csv"
 	"fmt"
 	"github.com/ip2location/ip2location-go"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/util"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"io"

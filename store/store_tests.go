@@ -2,8 +2,8 @@ package store
 
 import (
 	"github.com/leighmacdonald/golib"
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/util"
 	"github.com/stretchr/testify/require"
 	"log"
 	"math/rand"

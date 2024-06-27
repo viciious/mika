@@ -1,8 +1,8 @@
 package geo
 
 import (
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/util"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
 	"math"

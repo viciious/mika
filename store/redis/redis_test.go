@@ -2,8 +2,8 @@ package redis
 
 import (
 	"github.com/go-redis/redis/v7"
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/store"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/store"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
 	"os"

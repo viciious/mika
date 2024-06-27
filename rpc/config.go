@@ -3,9 +3,9 @@ package rpc
 import (
 	"context"
 	"github.com/jedib0t/go-pretty/v6/table"
-	pb "github.com/leighmacdonald/mika/proto"
-	"github.com/leighmacdonald/mika/store"
-	"github.com/leighmacdonald/mika/tracker"
+	pb "github.com/viciious/mika/proto"
+	"github.com/viciious/mika/store"
+	"github.com/viciious/mika/tracker"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

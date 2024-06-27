@@ -2,11 +2,11 @@ package tracker
 
 import (
 	"context"
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/consts"
-	"github.com/leighmacdonald/mika/geo"
-	"github.com/leighmacdonald/mika/store"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/consts"
+	"github.com/viciious/mika/geo"
+	"github.com/viciious/mika/store"
+	"github.com/viciious/mika/util"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"sort"
@@ -14,7 +14,7 @@ import (
 	"time"
 
 	// Imported for side-effects for NewTestTracker
-	_ "github.com/leighmacdonald/mika/store/memory"
+	_ "github.com/viciious/mika/store/memory"
 	"sync"
 )
 

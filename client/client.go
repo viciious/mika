@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/leighmacdonald/mika/config"
-	pb "github.com/leighmacdonald/mika/proto"
+	"github.com/viciious/mika/config"
+	pb "github.com/viciious/mika/proto"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

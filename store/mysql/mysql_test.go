@@ -2,9 +2,9 @@ package mysql
 
 import (
 	"github.com/jmoiron/sqlx"
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/store"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/store"
+	"github.com/viciious/mika/util"
 	"io/ioutil"
 	"os"
 	"testing"

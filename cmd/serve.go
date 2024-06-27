@@ -2,11 +2,11 @@ package cmd
 
 import (
 	"context"
-	"github.com/leighmacdonald/mika/config"
-	pb "github.com/leighmacdonald/mika/proto"
-	"github.com/leighmacdonald/mika/rpc"
-	"github.com/leighmacdonald/mika/tracker"
-	"github.com/leighmacdonald/mika/util"
+	"github.com/viciious/mika/config"
+	pb "github.com/viciious/mika/proto"
+	"github.com/viciious/mika/rpc"
+	"github.com/viciious/mika/tracker"
+	"github.com/viciious/mika/util"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"

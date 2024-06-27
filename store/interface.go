@@ -10,8 +10,8 @@
 package store
 
 import (
-	"github.com/leighmacdonald/mika/config"
-	"github.com/leighmacdonald/mika/consts"
+	"github.com/viciious/mika/config"
+	"github.com/viciious/mika/consts"
 	log "github.com/sirupsen/logrus"
 	"sync"
 )

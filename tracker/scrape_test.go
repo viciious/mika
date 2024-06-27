@@ -3,7 +3,7 @@ package tracker
 import (
 	"fmt"
 	"github.com/chihaya/bencode"
-	"github.com/leighmacdonald/mika/store"
+	"github.com/viciious/mika/store"
 	"github.com/stretchr/testify/require"
 	"testing"
 )
